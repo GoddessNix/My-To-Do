@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-content {
+  background-color: #ffaadc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+
+.App-link {
+  color: #ff90d1;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+form input {
+  height: 45px;
+  width: 500px;
+  border-radius: 10px;
+  border-width: 0px;
+  display: flex;
+  /* margin: 5px; */
+  vertical-align: auto;
+  padding-left: 20px;
+}
+
+form button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+  margin: 2px 0;
+  border: solid 1px transparent;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  color: #ffffff;
+  background-color: rgb(61, 167, 0);
+  height: 40px;
+  width: 120px;
+}
+form button:hover{
+  background-color: rgb(4, 126, 0);
+}
+
+h3 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 45px;
+}
+
+p{
+  margin: 0px;
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.list {
+  display: flex;
+  margin: 15px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff76c6;
+  padding: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 8px;
+}
+
+.btn-delete {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px transparent;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: #ff3a3a;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  font-weight: 800;
+  /* margin: 5px; */
+  padding-bottom: 4px;
+}
+.btn-delete:hover{
+  background-color: rgb(184, 0, 0);
+}
+
+.btn-edit{
+  border-radius: 6px;
+  border-width: 0px;
+  /* margin-bottom: 6px; */
+  font-size: 17px;
+  padding: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  background-color: rgb(62, 136, 255);
+}
+.btn-edit:hover{
+  background-color: rgb(50, 63, 255);
+  color: white;
+}
+
+.checkbox{
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  cursor: pointer;
+  /* margin-bottom: 20px; */
+}
